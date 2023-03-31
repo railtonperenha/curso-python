@@ -1,0 +1,5 @@
+nome = str(input('Escreva seu nome completo: '))
+print('Analisando seu nome...')
+primeiro = nome.split()
+segundo = nome.split()
+print(primeiro)
