@@ -1,8 +1,11 @@
-from random import shuffle
-num = ['0', '1', '2', '3', '4', '5']
-shuffle(num)
-digite = print(input(str('Digite um número de 0 a 5 ')))
-if digite == num:
-    print('Você venceu!')
+from random import randint
+computador = randint(0, 5)
+print('-=-' * 20)
+print('Vou pensar em um número entre 0 e 5. Tente adivinhar!')
+print('-=-' * 20)
+jogador = int(input('Em qual número eu pensei ? '))
+if jogador == computador:
+    print('Parabéns, você acertou!')
 else:
-    print('Você perdeu!')
+    print('Você errou, tente novamente!')
+    
