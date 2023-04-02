@@ -1,6 +1,6 @@
-viagem = int(input('Você está indo viajar. Digite a distância (em km): '))
-print('Você irá viajar uma distância de {} km'.format(viagem))
-if viagem > 200:
-    print('Sua viajem irá custar R$ {:.2f}'.format(viagem * 0.50))
+num = int(input('Digite um inteiro inteiro e descubra se ele é Par ou Ímpar: '))
+print('Você digitou o número {}'.format(num))
+if num % 2 == 0:
+    print(num,':É um número Par')
 else:
-    print('Sua viajem irá custar R$ {:.2f}'.format(viagem * 0.45))
+    print(num,':É um número Ímpar')
