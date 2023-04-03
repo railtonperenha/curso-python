@@ -1,6 +1,6 @@
 num = int(input('Digite um inteiro inteiro e descubra se ele é Par ou Ímpar: '))
-print('Você digitou o número {}'.format(num))
 if num % 2 == 0:
-    print(num,':É um número Par')
+    print('Você digitou o número {}. Ele é um número Par'.format(num))
 else:
-    print(num,':É um número Ímpar')
+    print('Você digitou o número {}. Ele é um número Ímpar'.format(num))
+    
